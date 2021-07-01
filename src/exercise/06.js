@@ -4,6 +4,7 @@
 import * as React from 'react'
 
 function UsernameForm({onSubmitUsername}) {
+  // I didn't realize that this was extra credit 3 as well.
   const [name, setName] = React.useState('');
   const [error, setError] = React.useState('');
 
