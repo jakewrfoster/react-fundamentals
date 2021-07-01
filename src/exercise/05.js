@@ -16,9 +16,6 @@ const doStyles = (bgColor) => ({backgroundColor: bgColor, fontStyle: 'italic'});
 const Box = ({size, color, children}) => (
   <div className={`box box--${size}`} style={doStyles(color)}>{children}</div>
 );
-const smallBox = <div className="box box--small" style={doStyles('lightblue')}>small lightblue box</div>
-const mediumBox = <div className="box box--medium" style={doStyles('pink')}>medium pink box</div>
-const largeBox = <div className="box box--large" style={doStyles('orange')}>large orange box</div>
 
 function App() {
   return (
